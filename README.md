@@ -118,28 +118,6 @@ to minimize operational costs during development.
 
 ---
 
-## Repository Structure
-
-cloud-resume/
-├── terraform/
-│ ├── provider.tf
-│ ├── s3.tf
-│ ├── dynamodb.tf
-│ ├── iam.tf
-│ ├── lambda.tf
-│ ├── apigw.tf
-│ ├── outputs.tf
-│ └── lambda/
-│ └── visitor_counter.py
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-└── README.md
-
-
----
-
 ## Author
 
 Antonis  
