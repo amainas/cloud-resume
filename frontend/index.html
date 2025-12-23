@@ -2,21 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Antonis | Cloud Resume</title>
+  <title>Antonis Mainas | DevOps Intern Candidate</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>Antonis</h1>
-  <p>Cloud / Systems Engineer</p>
-  <p>CI/CD Enabled</p>
+  <header>
+    <h1>Antonis Mainas</h1>
+    <p class="subtitle">DevOps Intern Candidate | System & Cloud Background</p>
+  </header>
 
-  <hr />
+  <section>
+    <h2>Profile</h2>
+    <p>
+      Proactive IT professional with a strong foundation in system administration,
+      cloud platforms, and networking. Hands-on experience managing Windows and Linux
+      server environments, virtualized infrastructure, and cloud services.
+      Strong interest in DevOps practices, automation, and infrastructure reliability.
+    </p>
+  </section>
 
-  <p>
-     Visitors:
-    <span id="counter">Loading...</span>
-  </p>
+  <section>
+    <h2>Technical Focus</h2>
+    <ul>
+      <li>Linux and Windows server administration</li>
+      <li>Infrastructure as Code using Terraform</li>
+      <li>CI/CD pipelines with GitHub Actions</li>
+      <li>Cloud platforms: AWS and Microsoft Azure</li>
+      <li>Automation with Ansible and scripting (Bash, PowerShell exposure)</li>
+      <li>Monitoring and observability with Nagios</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Professional Background</h2>
+    <p>
+      Experience supporting and administering IT infrastructure in production
+      environments, including media, publishing, and broadcast systems.
+      Background includes server administration, Active Directory and Azure AD,
+      virtualization with VMware, networking, backup systems, and monitoring.
+    </p>
+  </section>
+
+  <section>
+    <h2>Featured Project – Cloud Resume</h2>
+    <p>
+      This project was built to demonstrate practical DevOps and cloud skills
+      through real infrastructure and automation rather than theoretical examples.
+    </p>
+
+    <ul>
+      <li>Static frontend hosted on Amazon S3</li>
+      <li>Serverless backend using AWS Lambda and DynamoDB</li>
+      <li>Public REST API exposed via Amazon API Gateway</li>
+      <li>All infrastructure provisioned using Terraform</li>
+      <li>Automated frontend deployments with GitHub Actions</li>
+      <li>Designed with cost-awareness and AWS Free Tier limits in mind</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Architecture Overview</h2>
+    <p>
+      The frontend is served from an S3 static website. JavaScript requests are sent
+      to an API Gateway endpoint, which triggers a Lambda function that updates a
+      DynamoDB table storing the visitor count. All components are managed as code
+      using Terraform.
+    </p>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>AWS Certified Solutions Architect – Associate</li>
+      <li>AWS Certified Cloud Practitioner</li>
+      <li>Mikrotik Certified Network Associate (MTCNA)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Links</h2>
+    <ul>
+      <li>
+        GitHub:
+        <a href="https://github.com/amainas/cloud-resume" target="_blank">
+          github.com/amainas/cloud-resume
+        </a>
+      </li>
+      <li>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+          View Profile
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="counter">
+    <p>
+      Visitor counter:
+      <span id="counter">Loading...</span>
+    </p>
+  </section>
 
   <script src="script.js"></script>
 </body>
